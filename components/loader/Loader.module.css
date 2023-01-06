@@ -1,0 +1,17 @@
+.loader {
+    margin-left: 10px;
+}
+
+@keyframes blink {70% { color: transparent }}
+.loader__dot { 
+    animation: 1s blink infinite;
+    font-size: 50px;
+ }
+.loader__dot:nth-child(2) { 
+    animation-delay: 250ms;
+    font-size: 50px;
+}
+.loader__dot:nth-child(3) { 
+    font-size: 50px;
+    animation-delay: 500ms;
+}
